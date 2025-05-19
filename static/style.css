@@ -191,7 +191,51 @@ nav a:hover {
 #checkout-btn:hover {
     background-color: #45a049;
 }
+.add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    width: 100%;
+    transition: all 0.3s;
+}
 
+.add-to-cart:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+.add-to-cart:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Toast notifications */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 1rem;
+    background: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    animation: slideIn 0.5s ease-out;
+}
+
+.toast-error {
+    background: #f44336;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
 @media (max-width: 600px) {
     .juice-grid {
         grid-template-columns: 1fr;
