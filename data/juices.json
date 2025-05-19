@@ -1,0 +1,51 @@
+{
+  "1": {
+    "name": "Orange Blast",
+    "price": "3.99",
+    "description": "Fresh squeezed oranges",
+    "image": "orange.jpg"
+  },
+  "2": {
+    "name": "Berry Mix",
+    "price": "4.49",
+    "description": "Strawberry, blueberry and raspberry blend",
+    "image": "berry.jpg"
+  },
+  "3": {
+    "name": "Green Detox",
+    "price": "5.99",
+    "description": "Kale, spinach and apple",
+    "image": "green.jpg"
+  },
+  "4": {
+    "name": "Tropical Punch",
+    "price": "4.99",
+    "description": "Mango, pineapple and coconut",
+    "image": "tropical.jpg"
+  },
+  "5": {
+    "name": "Strawberry Juice",
+    "price": "2.99",
+    "description": "Strawberry",
+    "image": "strawberry.AVIF"
+  },
+  "6": {
+    "name": "Pear Juice",
+    "price": "6.99",
+    "description": "pear",
+    "image": "pear-juice.JPG"
+  },
+  "7": {
+    "name": "Carrot Juice",
+    "price": "3.99",
+    "description": "carrot",
+    "image": "carrot.WEBP"
+  },
+  "8": {
+    "name": "Watermelon Juice",
+    "price": "5",
+    "description": "Watermelon",
+    "image": "watermilon.JpG"
+  }
+  
+}
